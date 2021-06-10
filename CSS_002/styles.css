@@ -1,0 +1,62 @@
+/* *, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+} */
+/* opdracht */
+.link_001{
+    font-size: 100px;
+    padding: 30px;
+    display: block;
+}
+.link_001:hover{
+    color: lightblue;
+    font-weight: bolder;   
+}
+
+.link_002{
+    font-size: 100px;
+    padding: 30px;
+    display: block;
+}
+.link_002:active{
+    color: red;
+    font-style: italic;
+}
+.link_003{
+    font-size: 100px;
+    padding: 30px;
+    display: block;
+    color: teal;
+}
+.link_003:visited{
+    color: yellow;  
+}
+.text_area:focus{
+    color: green;
+    font-size: 20px;
+}
+/* opdracht 2 */
+nav{
+    background-color: darkblue;
+}
+.nav li{
+    margin-bottom: 10px;
+}
+.nav li:first-child {
+    padding:0;
+    color: green;
+}
+.nav ul:first-child{
+    padding:0;
+}
+.nav li:hover{
+    background-color: lightblue;
+}
+.currentPage{
+    background-color: rgb(142, 156, 194);
+}
+input:focus{
+    border:aquamarine solid 5px;
+    background-color: none;
+}
